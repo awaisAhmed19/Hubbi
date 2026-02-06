@@ -1,0 +1,37 @@
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #007bff;
+}
+
+button {
+  padding: 6px;
+  width: 50px;
+  text-align: center;
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+}
+
+#yes-btn {
+  background-color: green;
+}
+
+#no-btn {
+  background-color: red;
+  /* position: absolute; */
+  /* transition: transform 0.25s ease; */
+}
